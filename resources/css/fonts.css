@@ -1,0 +1,50 @@
+/*Roboto*/
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    src: local("Roboto"),
+         url('../fonts/Roboto-Light.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),
+         url('../fonts/Roboto-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    src: local("Roboto"),
+         url('../fonts/Roboto-Medium.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Roboto"),
+         url('../fonts/Roboto-Bold.ttf') format("truetype");
+}
+
+/*Proxima Nova*/
+
+@font-face {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: 700;
+    src: local("ProximaNova"),
+         url('../fonts/ProximaNova-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: 900;
+    src: local("ProximaNova"),
+         url('../fonts/ProximaNova-Black.ttf') format("truetype");
+}
