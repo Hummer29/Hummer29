@@ -2,14 +2,21 @@
 <html lang="ru">
 
 <head>
+    <meta name="viewport" content="width=1800">
     <meta charset="UTF-8">
     <title>A7 Cloud</title>
     <link rel="stylesheet" href="resources/css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="resources/css/fonts.css">
     <link rel="stylesheet" href="resources/css/style.min.css">
+    <script>
+        window.addEventListener('load', () => {
+            document.body.classList.remove('preload');
+            console.log('1');
+        });
+    </script>
 </head>
 
-<body>
+<body class="preload">
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
